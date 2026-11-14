@@ -1,0 +1,69 @@
+source_id,page,chapter,section_at_start,raw_chars,normalized_chars
+openstax-python,95,4,4.0 Introduction,1239,1212
+openstax-python,96,4,4.1 Boolean values,1164,1075
+openstax-python,97,4,4.1 Boolean values,989,929
+openstax-python,98,4,4.1 Boolean values,1214,1127
+openstax-python,99,4,4.1 Boolean values,787,730
+openstax-python,100,4,4.1 Boolean values,1980,1898
+openstax-python,101,4,4.2 If-else statements,1163,1089
+openstax-python,102,4,4.2 If-else statements,1342,1246
+openstax-python,103,4,4.2 If-else statements,857,780
+openstax-python,104,4,4.2 If-else statements,1403,1323
+openstax-python,105,4,4.3 Boolean operations,1023,957
+openstax-python,106,4,4.3 Boolean operations,1040,951
+openstax-python,107,4,4.3 Boolean operations,1025,960
+openstax-python,108,4,4.3 Boolean operations,1255,1175
+openstax-python,109,4,4.4 Operator precedence,1340,1271
+openstax-python,110,4,4.4 Operator precedence,1371,1282
+openstax-python,111,4,4.4 Operator precedence,1564,1490
+openstax-python,112,4,4.5 Chained decisions,876,771
+openstax-python,113,4,4.5 Chained decisions,1087,993
+openstax-python,114,4,4.5 Chained decisions,713,594
+openstax-python,115,4,4.5 Chained decisions,1076,990
+openstax-python,116,4,4.5 Chained decisions,1425,1326
+openstax-python,117,4,4.6 Nested decisions,1158,1043
+openstax-python,118,4,4.6 Nested decisions,842,718
+openstax-python,119,4,4.6 Nested decisions,1498,1428
+openstax-python,120,4,4.7 Conditional expressions,1231,1137
+openstax-python,125,5,5.0 Introduction,1222,1196
+openstax-python,126,5,5.1 While loop,1431,1335
+openstax-python,127,5,5.1 While loop,1348,1277
+openstax-python,128,5,5.1 While loop,1448,1362
+openstax-python,129,5,5.2 For loop,1159,1096
+openstax-python,130,5,5.2 For loop,1126,1036
+openstax-python,131,5,5.2 For loop,1177,1104
+openstax-python,132,5,5.2 For loop,1430,1353
+openstax-python,133,5,5.3 Nested loops,1090,1002
+openstax-python,134,5,5.3 Nested loops,646,499
+openstax-python,135,5,5.3 Nested loops,1129,1042
+openstax-python,136,5,5.3 Nested loops,992,880
+openstax-python,137,5,5.3 Nested loops,1403,1327
+openstax-python,138,5,5.4 Break and continue,1004,887
+openstax-python,139,5,5.4 Break and continue,1029,931
+openstax-python,140,5,5.4 Break and continue,1092,1005
+openstax-python,141,5,5.5 Loop else,1623,1536
+openstax-python,142,5,5.5 Loop else,707,556
+openstax-python,147,6,6.0 Introduction,1103,1078
+openstax-python,148,6,6.1 Defining functions,1371,1281
+openstax-python,149,6,6.1 Defining functions,1344,1274
+openstax-python,150,6,6.1 Defining functions,888,808
+openstax-python,151,6,6.1 Defining functions,1483,1426
+openstax-python,152,6,6.2 Control flow,1110,988
+openstax-python,153,6,6.2 Control flow,1070,1008
+openstax-python,154,6,6.2 Control flow,1497,1413
+openstax-python,155,6,6.2 Control flow,1160,1092
+openstax-python,156,6,6.3 Variable scope,1108,1013
+openstax-python,157,6,6.3 Variable scope,1097,1023
+openstax-python,158,6,6.3 Variable scope,841,704
+openstax-python,159,6,6.3 Variable scope,1361,1301
+openstax-python,160,6,6.3 Variable scope,1381,1296
+openstax-python,161,6,6.4 Parameters,1187,1123
+openstax-python,162,6,6.4 Parameters,1534,1413
+openstax-python,163,6,6.4 Parameters,1352,1289
+openstax-python,164,6,6.4 Parameters,1216,1134
+openstax-python,165,6,6.5 Return values,1209,1134
+openstax-python,166,6,6.5 Return values,1202,1045
+openstax-python,167,6,6.5 Return values,911,829
+openstax-python,168,6,6.5 Return values,983,901
+openstax-python,169,6,6.5 Return values,1430,1355
+openstax-python,170,6,6.6 Keyword arguments,1374,1280

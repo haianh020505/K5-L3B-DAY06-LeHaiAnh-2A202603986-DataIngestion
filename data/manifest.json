@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "source_id": "openstax-python",
+      "title": "Introduction to Python Programming (OpenStax)",
+      "publisher": "OpenStax, Rice University",
+      "source_path_or_url": "https://openstax.org/details/books/introduction-python-programming",
+      "local_path": "starter/data/Introduction_to_Python_Programming-WEB.pdf",
+      "license_or_permission": "CC BY-NC-SA 4.0 (stated on PDF pages 4 and 11). Non-commercial course use; attribution to OpenStax/Rice University; derivatives shared under the same license. The PDF itself is not committed; download it from the URL above.",
+      "accessed_at": "2026-11-14",
+      "version": "PDF 'WEB' edition, PDF CreationDate 2026-04-20, 397 physical pages",
+      "page_numbering": "1-based physical PDF page index (not the printed page number in the footer)",
+      "chapters": {
+        "4": {"title": "Decisions", "pages": [95, 120]},
+        "5": {"title": "Loops", "pages": [125, 142]},
+        "6": {"title": "Functions", "pages": [147, 170]}
+      },
+      "excluded_pages": {
+        "121-124": "4.8 Chapter summary (reference tables repeating chapter content; 124 blank)",
+        "143-146": "5.6 Chapter summary",
+        "171-174": "6.7 Chapter summary",
+        "1-94, 175-397": "outside the selected chapters (cover, TOC, preface, other chapters, answer key, index)"
+      },
+      "counting_rule": "A page counts if it lies in the chapter ranges above, is not a chapter-summary page, and has non-empty text after normalization. Per-page character counts are written to data/manifest_pages.csv by `python -m src.run`."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "model": "openai/text-embedding-3-small",
+  "provider": "OpenRouter",
+  "dimensions": 1536,
+  "vector_store": "chromadb 1.5.9 PersistentClient, cosine, HNSW (approximate)",
+  "pages_loaded": 68,
+  "page_errors": [],
+  "ingest_seconds": 1.81,
+  "index": {
+    "A": {
+      "chunks": 196,
+      "total_chars": 81474,
+      "min": 51,
+      "median": 499.0,
+      "mean": 415.7,
+      "max": 500,
+      "embed_tokens": 22717,
+      "index_seconds": 11.56,
+      "first_upsert": {
+        "upserted": 196,
+        "deleted_stale": 0,
+        "count_after": 196
+      },
+      "reingest": {
+        "upserted": 196,
+        "deleted_stale": 0,
+        "count_after": 196
+      }
+    },
+    "B": {
+      "chunks": 144,
+      "total_chars": 75051,
+      "min": 6,
+      "median": 565.5,
+      "mean": 521.2,
+      "max": 798,
+      "embed_tokens": 20648,
+      "index_seconds": 8.72,
+      "first_upsert": {
+        "upserted": 144,
+        "deleted_stale": 0,
+        "count_after": 144
+      },
+      "reingest": {
+        "upserted": 144,
+        "deleted_stale": 0,
+        "count_after": 144
+      }
+    }
+  },
+  "embedding_usage": {
+    "requests": 28,
+    "prompt_tokens": 43616,
+    "cost_usd_reported": 0.0008723200000000001
+  },
+  "summary": {
+    "A": {
+      "dev": {
+        "n": 15,
+        "hit@1": 4,
+        "hit@3": 12
+      },
+      "test": {
+        "n": 5,
+        "hit@1": 2,
+        "hit@3": 2
+      }
+    },
+    "B": {
+      "dev": {
+        "n": 15,
+        "hit@1": 6,
+        "hit@3": 14
+      },
+      "test": {
+        "n": 5,
+        "hit@1": 3,
+        "hit@3": 4
+      }
+    },
+    "C": {
+      "dev": {
+        "n": 15,
+        "hit@1": 7,
+        "hit@3": 14
+      },
+      "test": {
+        "n": 5,
+        "hit@1": 4,
+        "hit@3": 5
+      }
+    }
+  },
+  "run_at": "2026-11-14 22:00:35"
+}

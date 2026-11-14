@@ -1,0 +1,463 @@
+strategy,id,filter,rank,chunk_id,page,chapter,section,auto_evidence_hit,text,metadata_correct_0_1,filter_respected_0_1,note
+A,q16,null,1,openstax-python-p160-c01,160,6,6.4 Parameters,True,"a programmer wants to write a function that prints the contents of a list? Good practice is to pass
+values directly to a function rather than relying on global variables. A function argument is a value passed as
+input during a function call. A function parameter is a variable representing the input in the function
+definition. Note: The terms ""argument"" and ""parameter"" are sometimes used interchangeably in conversation
+and documentation.
+CHECKPOINT
+Global and local variables in a program with a f",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q16,null,2,openstax-python-p161-c00,161,6,6.4 Parameters,False,"1 . Which is an argument?
+a. name
+b. username
+c. name and username
+2 . Which is a parameter?
+a. name
+b. username
+c. name and username
+3 . What is the scope of name?
+a. print_welcome() only
+b. whole program
+4 . What would happen if username was changed to name on lines 4 and 5?
+a. same output
+b. error/wrong output
+Multiple arguments and parameters
+Functions can have multiple parameters. Ex: A function uses two parameters, length and width, to compute
+the square footage of a room. Function calls m",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q16,null,3,openstax-python-p162-c01,162,6,6.4 Parameters,False,"variable is a name that refers to an object stored in memory, aka an object reference, so Python
+uses a pass-by-object-reference system. If an argument is changed in a function, the changes are kept or lost
+depending on the object's mutability. A mutable object can be modified after creation. A function's changes to
+the object then appear outside the function. An immutable object cannot be modified after creation. So a
+function must make a local copy to modify, and the local copy's changes don'",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q16,null,1,openstax-python-p160-c01,160,6,6.4 Parameters,True,"6.4 Parameters
+Learning objectives
+By the end of this section you should be able to
+• Identify a function's arguments and parameters.
+• Describe how mutability affects how a function can modify arguments.
+Arguments and parameters
+What if a programmer wants to write a function that prints the contents of a list? Good practice is to pass values directly to a function rather than relying on global variables. A function argument is a value passed as input during a function call. A function parameter is a variable representing the input in the function definition. Note: The terms ""argument"" and ""parameter"" are sometimes used interchangeably in conversation and documentation.
+CHECKPOINT
+Global and local variables in a program with a function",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q16,null,2,openstax-python-p161-c00,161,6,6.4 Parameters,False,"1 . Which is an argument?
+a. name
+b. username
+c. name and username
+2 . Which is a parameter?
+a. name
+b. username
+c. name and username
+3 . What is the scope of name?
+a. print_welcome() only
+b. whole program
+4 . What would happen if username was changed to name on lines 4 and 5?
+a. same output
+b. error/wrong output
+Multiple arguments and parameters
+Functions can have multiple parameters. Ex: A function uses two parameters, length and width, to compute the square footage of a room. Function calls must use the correct order and number of arguments to avoid undesired behavior and errors (unless using optional or keyword arguments as discussed later). EXAMPLE 6.1
+Using multiple arguments in a function call
+def print_div(op_1, op_2):
+"""""" Prints division operation """"""",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q16,null,3,openstax-python-p162-c01,162,6,6.4 Parameters,False,"In Python, a variable is a name that refers to an object stored in memory, aka an object reference, so Python uses a pass-by-object-reference system. If an argument is changed in a function, the changes are kept or lost depending on the object's mutability. A mutable object can be modified after creation. A function's changes to the object then appear outside the function. An immutable object cannot be modified after creation. So a function must make a local copy to modify, and the local copy's changes don't appear outside the function. Programmers should be cautious of modifying function arguments as these side effects can make programs difficult to debug and maintain.
+EXAMPLE 6.2
+Converting temperatures
+What are the values of weekend_temps and type after convert_temps() finishes?",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q16,null,1,openstax-python-p160-c01,160,6,6.4 Parameters,True,"6.4 Parameters
+Learning objectives
+By the end of this section you should be able to
+• Identify a function's arguments and parameters.
+• Describe how mutability affects how a function can modify arguments.
+Arguments and parameters
+What if a programmer wants to write a function that prints the contents of a list? Good practice is to pass values directly to a function rather than relying on global variables. A function argument is a value passed as input during a function call. A function parameter is a variable representing the input in the function definition. Note: The terms ""argument"" and ""parameter"" are sometimes used interchangeably in conversation and documentation.
+CHECKPOINT
+Global and local variables in a program with a function",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q16,null,2,openstax-python-p161-c00,161,6,6.4 Parameters,False,"1 . Which is an argument?
+a. name
+b. username
+c. name and username
+2 . Which is a parameter?
+a. name
+b. username
+c. name and username
+3 . What is the scope of name?
+a. print_welcome() only
+b. whole program
+4 . What would happen if username was changed to name on lines 4 and 5?
+a. same output
+b. error/wrong output
+Multiple arguments and parameters
+Functions can have multiple parameters. Ex: A function uses two parameters, length and width, to compute the square footage of a room. Function calls must use the correct order and number of arguments to avoid undesired behavior and errors (unless using optional or keyword arguments as discussed later). EXAMPLE 6.1
+Using multiple arguments in a function call
+def print_div(op_1, op_2):
+"""""" Prints division operation """"""",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q16,null,3,openstax-python-p162-c01,162,6,6.4 Parameters,False,"In Python, a variable is a name that refers to an object stored in memory, aka an object reference, so Python uses a pass-by-object-reference system. If an argument is changed in a function, the changes are kept or lost depending on the object's mutability. A mutable object can be modified after creation. A function's changes to the object then appear outside the function. An immutable object cannot be modified after creation. So a function must make a local copy to modify, and the local copy's changes don't appear outside the function. Programmers should be cautious of modifying function arguments as these side effects can make programs difficult to debug and maintain.
+EXAMPLE 6.2
+Converting temperatures
+What are the values of weekend_temps and type after convert_temps() finishes?",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q17,null,1,openstax-python-p160-c01,160,6,6.4 Parameters,False,"a programmer wants to write a function that prints the contents of a list? Good practice is to pass
+values directly to a function rather than relying on global variables. A function argument is a value passed as
+input during a function call. A function parameter is a variable representing the input in the function
+definition. Note: The terms ""argument"" and ""parameter"" are sometimes used interchangeably in conversation
+and documentation.
+CHECKPOINT
+Global and local variables in a program with a f",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q17,null,2,openstax-python-p170-c01,170,6,6.6 Keyword arguments,False,"(such as
+lists) should not be used as default values.
+The physics example below calculates weight as a force in newtons given mass in kilograms and acceleration
+in . Gravity on Earth is 9.8 , and gravity on Mars is 3.7 .
+CHECKPOINT
+Using default parameter values
+Using default parameter values; ch 6, video 14 (https://www.openstax.org/r/default-parameter-values)
+CONCEPTS IN PRACTICE
+Using default parameter values
+Consider the following updated version of greeting():
+def greeting(msg, name=""Frien",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q17,null,3,openstax-python-p169-c01,169,6,6.6 Keyword arguments,False,"that use parameter names
+to assign values rather than order. When mixing positional and keyword arguments, positional arguments
+must come first in the correct order, before any keyword arguments.
+CHECKPOINT
+Using keyword arguments
+Using keyword arguments; ch 6, video 13 (https://www.openstax.org/r/keyword-arguments)
+CONCEPTS IN PRACTICE
+Using keyword and positional arguments
+Consider the following function:
+def greeting(msg, name, count):
+i = 0
+for i in range(0, count):
+print(msg, name)
+1 . Whi",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q17,null,1,openstax-python-p170-c01,170,6,6.6 Keyword arguments,False,"Using default parameter values; ch 6, video 14 (https://www.openstax.org/r/default-parameter-values) CONCEPTS IN PRACTICE
+Using default parameter values
+Consider the following updated version of greeting():
+def greeting(msg, name=""Friend"", count=1):
+i = 0
+for i in range(0, count):
+print(msg, name)
+5 . Which parameters have default values?
+a. msg
+b. name and count
+c. all
+6 . Which function call is correct?
+a. greeting()
+b. greeting(name=""Gina"")
+c. greeting(""Greetings"")
+7 . What is the output of greeting(count=0, msg=""Hello"")?
+a. Hello Friend
+b. nothing
+c. Error",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q17,null,2,openstax-python-p160-c01,160,6,6.4 Parameters,False,"6.4 Parameters
+Learning objectives
+By the end of this section you should be able to
+• Identify a function's arguments and parameters.
+• Describe how mutability affects how a function can modify arguments.
+Arguments and parameters
+What if a programmer wants to write a function that prints the contents of a list? Good practice is to pass values directly to a function rather than relying on global variables. A function argument is a value passed as input during a function call. A function parameter is a variable representing the input in the function definition. Note: The terms ""argument"" and ""parameter"" are sometimes used interchangeably in conversation and documentation.
+CHECKPOINT
+Global and local variables in a program with a function",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q17,null,3,openstax-python-p170-c00,170,6,6.6 Keyword arguments,True,"a. greeting(""Morning"", ""Morgan"", count=3)
+b. greeting(count=1,""Hi"", ""Bea"")
+c. greeting(""Cheers"", ""Colleagues"", 10)
+Default parameter values
+Functions can define default parameter values to use if a positional or keyword argument is not provided for the parameter. Ex: def season(m, d, hemi=""N""): defines a default value of ""N"" for the hemi parameter. Note: Default parameter values are only defined once to be used by the function, so mutable objects (such as lists) should not be used as default values.
+The physics example below calculates weight as a force in newtons given mass in kilograms and acceleration in . Gravity on Earth is 9.8 , and gravity on Mars is 3.7 .
+CHECKPOINT
+Using default parameter values",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q17,null,1,openstax-python-p170-c01,170,6,6.6 Keyword arguments,False,"Using default parameter values; ch 6, video 14 (https://www.openstax.org/r/default-parameter-values) CONCEPTS IN PRACTICE
+Using default parameter values
+Consider the following updated version of greeting():
+def greeting(msg, name=""Friend"", count=1):
+i = 0
+for i in range(0, count):
+print(msg, name)
+5 . Which parameters have default values?
+a. msg
+b. name and count
+c. all
+6 . Which function call is correct?
+a. greeting()
+b. greeting(name=""Gina"")
+c. greeting(""Greetings"")
+7 . What is the output of greeting(count=0, msg=""Hello"")?
+a. Hello Friend
+b. nothing
+c. Error",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q17,null,2,openstax-python-p160-c01,160,6,6.4 Parameters,False,"6.4 Parameters
+Learning objectives
+By the end of this section you should be able to
+• Identify a function's arguments and parameters.
+• Describe how mutability affects how a function can modify arguments.
+Arguments and parameters
+What if a programmer wants to write a function that prints the contents of a list? Good practice is to pass values directly to a function rather than relying on global variables. A function argument is a value passed as input during a function call. A function parameter is a variable representing the input in the function definition. Note: The terms ""argument"" and ""parameter"" are sometimes used interchangeably in conversation and documentation.
+CHECKPOINT
+Global and local variables in a program with a function",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q17,null,3,openstax-python-p170-c00,170,6,6.6 Keyword arguments,True,"a. greeting(""Morning"", ""Morgan"", count=3)
+b. greeting(count=1,""Hi"", ""Bea"")
+c. greeting(""Cheers"", ""Colleagues"", 10)
+Default parameter values
+Functions can define default parameter values to use if a positional or keyword argument is not provided for the parameter. Ex: def season(m, d, hemi=""N""): defines a default value of ""N"" for the hemi parameter. Note: Default parameter values are only defined once to be used by the function, so mutable objects (such as lists) should not be used as default values.
+The physics example below calculates weight as a force in newtons given mass in kilograms and acceleration in . Gravity on Earth is 9.8 , and gravity on Mars is 3.7 .
+CHECKPOINT
+Using default parameter values",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q18,null,1,openstax-python-p162-c01,162,6,6.4 Parameters,False,"variable is a name that refers to an object stored in memory, aka an object reference, so Python
+uses a pass-by-object-reference system. If an argument is changed in a function, the changes are kept or lost
+depending on the object's mutability. A mutable object can be modified after creation. A function's changes to
+the object then appear outside the function. An immutable object cannot be modified after creation. So a
+function must make a local copy to modify, and the local copy's changes don'",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q18,null,2,openstax-python-p157-c02,157,6,6.3 Variable scope,False,"Editing global variables in a program with a function; ch 6, video 8 (https://www.openstax.org/r/editing-
+global-variables)",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q18,null,3,openstax-python-p155-c00,155,6,6.3 Variable scope,False,"6.3 Variable scope
+Learning objectives
+By the end of this section you should be able to
+• Identify the scope of a program's variables.
+• Discuss the impact of a variable's scope.
+Global scope
+A variable's scope is the part of a program where the variable can be accessed. A variable created outside of a
+function has global scope and can be accessed anywhere in the program. A Python program begins in global
+scope, and the global scope lasts for the entire program execution.
+CHECKPOINT
+Global varia",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q18,null,1,openstax-python-p157-c01,157,6,6.3 Variable scope,True,"Python allows global and local variables to have the same name, which can lead to unexpected program behavior. A function treats a variable edited within the function as a local variable unless told otherwise. To edit a global variable inside a function, the variable must be declared with the global keyword. CHECKPOINT
+Editing global variables in a program with a function
+Editing global variables in a program with a function; ch 6, video 8 (https://www.openstax.org/r/editing- global-variables)",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q18,null,2,openstax-python-p162-c01,162,6,6.4 Parameters,False,"In Python, a variable is a name that refers to an object stored in memory, aka an object reference, so Python uses a pass-by-object-reference system. If an argument is changed in a function, the changes are kept or lost depending on the object's mutability. A mutable object can be modified after creation. A function's changes to the object then appear outside the function. An immutable object cannot be modified after creation. So a function must make a local copy to modify, and the local copy's changes don't appear outside the function. Programmers should be cautious of modifying function arguments as these side effects can make programs difficult to debug and maintain.
+EXAMPLE 6.2
+Converting temperatures
+What are the values of weekend_temps and type after convert_temps() finishes?",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q18,null,3,openstax-python-p155-c00,155,6,6.3 Variable scope,False,"6.3 Variable scope
+Learning objectives
+By the end of this section you should be able to
+• Identify the scope of a program's variables.
+• Discuss the impact of a variable's scope.
+Global scope
+A variable's scope is the part of a program where the variable can be accessed. A variable created outside of a function has global scope and can be accessed anywhere in the program. A Python program begins in global scope, and the global scope lasts for the entire program execution.
+CHECKPOINT
+Global variables in a program with a function
+Global variables in a program with a function; ch 6, video 6 (https://www.openstax.org/r/global-variables) CONCEPTS IN PRACTICE
+Global variables
+1 . Which variables are global?
+num = float(input())
+num_sq = num * num
+print(num, ""squared is"", num_sq)
+a. num only",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q18,null,1,openstax-python-p157-c01,157,6,6.3 Variable scope,True,"Python allows global and local variables to have the same name, which can lead to unexpected program behavior. A function treats a variable edited within the function as a local variable unless told otherwise. To edit a global variable inside a function, the variable must be declared with the global keyword. CHECKPOINT
+Editing global variables in a program with a function
+Editing global variables in a program with a function; ch 6, video 8 (https://www.openstax.org/r/editing- global-variables)",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q18,null,2,openstax-python-p162-c01,162,6,6.4 Parameters,False,"In Python, a variable is a name that refers to an object stored in memory, aka an object reference, so Python uses a pass-by-object-reference system. If an argument is changed in a function, the changes are kept or lost depending on the object's mutability. A mutable object can be modified after creation. A function's changes to the object then appear outside the function. An immutable object cannot be modified after creation. So a function must make a local copy to modify, and the local copy's changes don't appear outside the function. Programmers should be cautious of modifying function arguments as these side effects can make programs difficult to debug and maintain.
+EXAMPLE 6.2
+Converting temperatures
+What are the values of weekend_temps and type after convert_temps() finishes?",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q18,null,3,openstax-python-p155-c00,155,6,6.3 Variable scope,False,"6.3 Variable scope
+Learning objectives
+By the end of this section you should be able to
+• Identify the scope of a program's variables.
+• Discuss the impact of a variable's scope.
+Global scope
+A variable's scope is the part of a program where the variable can be accessed. A variable created outside of a function has global scope and can be accessed anywhere in the program. A Python program begins in global scope, and the global scope lasts for the entire program execution.
+CHECKPOINT
+Global variables in a program with a function
+Global variables in a program with a function; ch 6, video 6 (https://www.openstax.org/r/global-variables) CONCEPTS IN PRACTICE
+Global variables
+1 . Which variables are global?
+num = float(input())
+num_sq = num * num
+print(num, ""squared is"", num_sq)
+a. num only",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q19,null,1,openstax-python-p112-c01,112,4,4.5 Chained decisions,False,"s complete the code such that if x is less than 0, Body 1 executes, else if x equals 0,
+Body 2 executes.
+if _________:
+# Body 1
+elif _________:
+# Body 2
+a. x < 0
+x == 0
+b. x == 0
+x < 0
+c. x <= 0
+[no condition]
+4 . Which of the following is a valid chained decision statement?
+a. if condition_1:
+# Body 1
+elif condition_2:",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q19,null,2,openstax-python-p109-c02,109,4,4.4 Operator precedence,False,"ce
+Operation precedence; ch 4, video 10 (https://www.openstax.org/r/operation-precedence)
+CONCEPTS IN PRACTICE
+Associativity
+How is each expression evaluated?
+4 . 10 + 3 * 2 / 4
+a. 10 + (3 * (2 / 4))
+b. 10 + ((3 * 2) / 4)
+c. (10 + 3) * (2 / 4)
+5 . 2 * 2 ** 2 ** 3
+a. 2 * ((2 ** 2) ** 3)
+b. 2 * (2 ** (2 ** 3))
+c. ((2*2) ** 2) ** 3
+6 . 100 < x > 150
+a. 100 < x and x < 150",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q19,null,3,openstax-python-p147-c00,147,6,6.0 Introduction,False,"Figure 6.1 credit: modification of work ""IMG_3037"", by Jay Roc/Flickr, Public Domain
+Chapter Outline
+6.1 Defining functions
+6.2 Control flow
+6.3 Variable scope
+6.4 Parameters
+6.5 Return values
+6.6 Keyword arguments
+6.7 Chapter summary
+Introduction
+Functions are the next step toward creating optimized code as a software developer. If the same block of code
+is reused repeatedly, a function allows the programmer to write the block of code once, name the block, and
+use the code as many times as need",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q19,null,1,openstax-python-p151-c01,151,6,6.2 Control flow,False,"6.2 Control flow
+Learning objectives
+By the end of this section you should be able to
+• Identify the control flow of a program.
+• Describe how control flow moves between statements and function calls.
+Control flow and functions
+Control flow is the sequence of program execution. A program's control flow begins at the main program but rarely follows a strict sequence. Ex: Control flow skips over lines when a conditional statement isn't executed. When execution reaches a function call, control flow moves to where the function is defined and executes the function statements. Then, control flow moves back to where the function was called and continues the sequence.
+CHECKPOINT
+Calling a brunch menu function
+Calling a brunch menu function; ch 6, video 4 (https://www.openstax.org/r/brunch-menu)",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q19,null,2,openstax-python-p113-c00,113,4,4.5 Chained decisions,False,"# Body 2
+b. if condition_1:
+# Body 1
+elif condition_2:
+# Body 2
+c. elif condition_1:
+# Body 1
+if condition_2:
+# Body 2
+5 . Given attendees = 350, what is the final value of rooms?
+rooms = 1
+if attendees >= 100:
+rooms += 3
+if attendees <= 200:
+rooms += 7
+elif attendees <= 400:
+rooms += 14
+a. 4
+b. 15
+c. 18
+if-elif-else statements
+Elifs can be chained with an if-else statement to create a more complex decision statement. Ex: A program shows possible chess moves depending on the piece type. If the piece is a pawn, show moving forward one (or two) places. Else if the piece is a bishop, show diagonal moves. Else if . . . (finish for the rest of the pieces). CHECKPOINT
+Example: Possible chess moves
+Example: Possible chess moves; ch 4, video 13 (https://www.openstax.org/r/chess-moves)",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q19,null,3,openstax-python-p095-c00,95,4,4.0 Introduction,False,"Figure 4.1 credit: modification of work ""Fork In The Road"", by Ian Sane/Flickr, CC BY 2.0
+Chapter Outline
+4.1 Boolean values
+4.2 If-else statements
+4.3 Boolean operations
+4.4 Operator precedence
+4.5 Chained decisions
+4.6 Nested decisions
+4.7 Conditional expressions
+4.8 Chapter summary
+Introduction",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q19,"{""chapter"": 5}",1,openstax-python-p132-c02,132,5,5.3 Nested loops,True,"5.3 Nested loops
+Learning objectives
+By the end of this section you should be able to
+• Implement nested while loops.
+• Implement nested for loops.
+Nested loops
+A nested loop has one or more loops within the body of another loop. The two loops are referred to as outer loop and inner loop. The outer loop controls the number of the inner loop's full execution. More than one inner loop can exist in a nested loop.
+TRY IT
+TRY IT",1,1,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q19,"{""chapter"": 5}",2,openstax-python-p125-c00,125,5,5.0 Introduction,False,"Figure 5.1 credit: modification of work ""Quantum Computing"", by Kevin Dooley/Flickr, CC BY 2.0 Chapter Outline
+5.1 While loop
+5.2 For loop
+5.3 Nested loops
+5.4 Break and continue
+5.5 Loop else
+5.6 Chapter summary
+Introduction
+A loop is a code block that runs a set of statements while a given condition is true. A loop is often used for performing a repeating task. Ex: The software on a phone repeatedly checks to see if the phone is idle. Once the time set by a user is reached, the phone is locked. Loops can also be used for iterating over lists like student names in a roster, and printing the names one at a time.
+In this chapter, two types of loops, for loop and while loop, are introduced. This chapter also introduces break and continue statements for controlling a loop's execution.",1,1,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q19,"{""chapter"": 5}",3,openstax-python-p135-c00,135,5,5.3 Nested loops,False,"j += 1
+i += 1
+Nested for loops
+A nested for loop can be implemented and used in the same way as a nested while loop. A for loop is a preferable option in cases where a loop is used for counting purposes using a range() function, or when iterating over a container object, including nested situations. Ex: Iterating over multiple course rosters. The outer loop iterates over different courses, and the inner loop iterates over the names in each course roster. CHECKPOINT
+Nested for loops
+Nested for loops; ch 5, video 4 (https://www.openstax.org/r/nested-for-loops)
+CONCEPTS IN PRACTICE
+Nested loop practices
+4 . Given the following code, how many times does the outer loop execute?
+for i in range(3):
+for j in range(4):
+print(i, ' ', j)
+a. 3
+b. 4
+c. 12",1,1,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q20,null,1,openstax-python-p095-c01,95,4,4.0 Introduction,True,"nstead of always taking the left path, a program uses the path
+width to decide which path to take. If the left path is wider, take the right path. Else, take the left path.
+A branch is a group of statements that execute based on a condition. The Expressions chapter introduced
+expressions. This chapter explores how expressions can be used as conditions to make decisions in programs.
+4.1 Boolean values
+Learning objectives
+By the end of this section you should be able to
+• Explain a Boolean value.",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q20,null,2,openstax-python-p147-c01,147,6,6.0 Introduction,False,"the block, and
+use the code as many times as needed by calling the block by name. Functions can read in values and return
+values to perform tasks, including complex calculations.
+Like branching statements discussed in the Decisions chapter, functions allow different paths of execution
+through a program, and this chapter discusses control flow and the scope of variables in more detail.
+6.1 Defining functions
+Learning objectives
+By the end of this section you should be able to
+• Identify function",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+A,q20,null,3,openstax-python-p095-c00,95,4,4.0 Introduction,False,"Figure 4.1 credit: modification of work ""Fork In The Road"", by Ian Sane/Flickr, CC BY 2.0
+Chapter Outline
+4.1 Boolean values
+4.2 If-else statements
+4.3 Boolean operations
+4.4 Operator precedence
+4.5 Chained decisions
+4.6 Nested decisions
+4.7 Conditional expressions
+4.8 Chapter summary
+Introduction
+The Python interpreter follows a single path of execution when executing a program. What if a programmer
+wants to define multiple possible paths? Ex: Instead of always taking the left path, a program u",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q20,null,1,openstax-python-p095-c01,95,4,4.0 Introduction,True,"The Python interpreter follows a single path of execution when executing a program. What if a programmer wants to define multiple possible paths? Ex: Instead of always taking the left path, a program uses the path width to decide which path to take. If the left path is wider, take the right path. Else, take the left path. A branch is a group of statements that execute based on a condition. The Expressions chapter introduced expressions. This chapter explores how expressions can be used as conditions to make decisions in programs. 4.1 Boolean values
+Learning objectives
+By the end of this section you should be able to
+• Explain a Boolean value.
+• Use bool variables to store Boolean values.
+• Demonstrate converting integers, floats, and strings to Booleans.",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q20,null,2,openstax-python-p147-c01,147,6,6.0 Introduction,False,"Like branching statements discussed in the Decisions chapter, functions allow different paths of execution through a program, and this chapter discusses control flow and the scope of variables in more detail. 6.1 Defining functions
+Learning objectives
+By the end of this section you should be able to
+• Identify function calls in a program.
+• Define a parameterless function that outputs strings.
+• Describe benefits of using functions.
+Functions
+6",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+B,q20,null,3,openstax-python-p095-c00,95,4,4.0 Introduction,False,"Figure 4.1 credit: modification of work ""Fork In The Road"", by Ian Sane/Flickr, CC BY 2.0
+Chapter Outline
+4.1 Boolean values
+4.2 If-else statements
+4.3 Boolean operations
+4.4 Operator precedence
+4.5 Chained decisions
+4.6 Nested decisions
+4.7 Conditional expressions
+4.8 Chapter summary
+Introduction",1,N/A,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q20,"{""chapter"": 4}",1,openstax-python-p095-c01,95,4,4.0 Introduction,True,"The Python interpreter follows a single path of execution when executing a program. What if a programmer wants to define multiple possible paths? Ex: Instead of always taking the left path, a program uses the path width to decide which path to take. If the left path is wider, take the right path. Else, take the left path. A branch is a group of statements that execute based on a condition. The Expressions chapter introduced expressions. This chapter explores how expressions can be used as conditions to make decisions in programs. 4.1 Boolean values
+Learning objectives
+By the end of this section you should be able to
+• Explain a Boolean value.
+• Use bool variables to store Boolean values.
+• Demonstrate converting integers, floats, and strings to Booleans.",1,1,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q20,"{""chapter"": 4}",2,openstax-python-p095-c00,95,4,4.0 Introduction,False,"Figure 4.1 credit: modification of work ""Fork In The Road"", by Ian Sane/Flickr, CC BY 2.0
+Chapter Outline
+4.1 Boolean values
+4.2 If-else statements
+4.3 Boolean operations
+4.4 Operator precedence
+4.5 Chained decisions
+4.6 Nested decisions
+4.7 Conditional expressions
+4.8 Chapter summary
+Introduction",1,1,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."
+C,q20,"{""chapter"": 4}",3,openstax-python-p111-c01,111,4,4.5 Chained decisions,False,"4.5 Chained decisions
+Learning objectives
+By the end of this section you should be able to
+• Identify the branches taken in an if-elif and if-elif-else statement.
+• Create a chained decision statement to evaluate multiple conditions.
+elif",1,1,"AI draft (Claude), pending student review: source/page/chapter/section checked against PDF page text and outline."

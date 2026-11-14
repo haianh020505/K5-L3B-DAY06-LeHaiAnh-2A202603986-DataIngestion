@@ -1,5 +1,28 @@
 # Day 06 · Data Ingestion Engineering
 
+> **Bài làm — Lê Hải Anh (2A202603986).** Báo cáo: [report/individual/2A202603986_LeHaiAnh.md](report/individual/2A202603986_LeHaiAnh.md)
+>
+> | | |
+> |---|---|
+> | Corpus | OpenStax *Introduction to Python Programming*, ch. 4–6, 68 trang — [data/manifest.json](data/manifest.json), thống kê từng trang [data/manifest_pages.csv](data/manifest_pages.csv) |
+> | Benchmark | 20 câu (15 dev / 5 test, 5 câu có filter) — [benchmark/questions.json](benchmark/questions.json) |
+> | Code | [starter/src/](starter/src/) — Chroma 1.5.9 (cosine, lưu đĩa) + `openai/text-embedding-3-small` qua OpenRouter |
+> | Kết quả | [starter/results/](starter/results/) (trace, run log, nhãn audit), [artifacts/experiment_log.csv](artifacts/experiment_log.csv) |
+>
+> **Chạy lại** (Windows PowerShell, Python 3.13, không cần Docker):
+> ```powershell
+> cd starter
+> py -3.13 -m venv .venv; .venv\Scripts\Activate.ps1
+> pip install -r requirements.txt
+> Copy-Item .env.example .env   # điền OPENROUTER_API_KEY, EMBEDDING_MODEL=openai/text-embedding-3-small
+> # tải PDF từ https://openstax.org/details/books/introduction-python-programming
+> # lưu thành starter/data/Introduction_to_Python_Programming-WEB.pdf (PDF không được commit, xem giấy phép)
+> python -m src.run
+> ```
+> Lệnh trên đọc PDF, kiểm chứng benchmark, nạp lại index A/B vào `starter/chroma_db/`, chạy A/B/C rồi ghi đè `starter/results/` và `artifacts/experiment_log.csv`. File `audit_*.csv` đã có (chứa nhãn thủ công) không bị ghi đè; mẫu mới được ghi ra `audit_*.new.csv`.
+
+---
+
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
 Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.

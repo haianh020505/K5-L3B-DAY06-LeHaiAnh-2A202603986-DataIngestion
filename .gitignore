@@ -8,3 +8,7 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# lab: regenerable vector DB and licensed source PDF (download via data/manifest.json)
+starter/chroma_db/
+starter/data/*.pdf

@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,chapter,section,char_start",none,openai/text-embedding-3-small via OpenRouter (1536d),Baseline: fixed windows may cut evidence sentences and mix topics.,4/15,12/15,2/5,2/5,196 chunks in index A
+B,by_paragraph,800,0,"document_id,source,page,chapter,section,char_start",none,openai/text-embedding-3-small via OpenRouter (1536d),Paragraph/heading chunks keep evidence sentences whole -> higher Evidence Hit@3 and coherence than A.,6/15,14/15,3/5,4/5,144 chunks in index B
+C,by_paragraph,800,0,"document_id,source,page,chapter,section,char_start",chapter (only if question has filter),openai/text-embedding-3-small via OpenRouter (1536d),Same index as B plus chapter filter (only when the question supplies one) -> fewer cross-chapter confusions.,7/15,14/15,4/5,5/5,144 chunks in index B
